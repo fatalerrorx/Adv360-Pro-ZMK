@@ -89,11 +89,11 @@
 
         layer_Layer__5 {
             bindings = <
- &trans  &trans  &trans             &trans  &trans  &trans                       &trans                                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans             &trans  &trans  &trans                       &trans                                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans             &trans  &trans  &trans                       &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &macro_clone_line  &trans  &trans                       &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans             &trans  &trans                    &kp LC(BACKSPACE)  &kp LC(DELETE)  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans             &trans         &trans  &trans                       &trans                                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans             &trans         &trans  &trans                       &trans                                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans             &trans  &kp LC(LS(F))  &trans                       &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &macro_clone_line         &trans  &trans                       &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans             &trans         &trans                    &kp LC(BACKSPACE)  &kp LC(DELETE)  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
