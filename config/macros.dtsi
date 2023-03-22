@@ -1,39 +1,3 @@
-macro_select_down: macro_select_down{
-compatible = "zmk,behavior-macro";
-label = "macro_select_down";
-#binding-cells = <0>;
-bindings = <&kt LSHIFT>, <&kp DOWN>, <&kt LSHIFT>;
-};
-macro_select_up: macro_select_up{
-compatible = "zmk,behavior-macro";
-label = "macro_select_up";
-#binding-cells = <0>;
-bindings = <&kt LSHIFT>, <&kp UP>, <&kt LSHIFT>;
-};
-macro_select_right: macro_select_right{
-compatible = "zmk,behavior-macro";
-label = "macro_select_right";
-#binding-cells = <0>;
-bindings = <&kt LSHIFT>, <&kp RIGHT>, <&kt LSHFT>;
-};
-macro_select_left: macro_select_left{
-compatible = "zmk,behavior-macro";
-label = "macro_select_left";
-#binding-cells = <0>;
-bindings = <&kt LSHIFT>, <&kp LEFT>, <&kt LSHFT>;
-};
-macro_paste: macro_paste{
-compatible = "zmk,behavior-macro";
-label = "macro_paste";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp P>, <&kt LCTRL>;
-};
-macro_copy: macro_copy{
-compatible = "zmk,behavior-macro";
-label = "macro_copy";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp C>, <&kt LCTRL>;
-};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
